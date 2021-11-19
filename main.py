@@ -102,7 +102,7 @@ def detect_and_predict_mask(frame, face_net, mask_net):
 
 def take_picture():
     print('[INFO] Taking picture...')
-    picture = url_to_image(url='http://192.168.0.118/cam-hi.jpg')
+    picture = url_to_image(url='http://192.168.0.118/capture.jpg')
     return imutils.resize(picture, width=400)
 
 
